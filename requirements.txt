@@ -1,0 +1,16 @@
+# MDART 运行依赖
+# PyTorch 与 DGL 建议按下述版本单独安装（wheel 需与 CUDA 版本严格匹配），
+# 详见 README.md 第 4 节「环境配置」。
+
+# ---- 核心依赖（随 pip install -r requirements.txt 安装）----
+numpy==1.23.1
+pandas>=1.5,<3.0
+scipy>=1.10,<2.0
+scikit-learn==0.24.2
+networkx==2.8.4
+matplotlib>=3.5,<4.0
+
+# ---- 需单独安装（版本必须与 CUDA 匹配，故不在此 pin）----
+# torch==1.10.0+cu113      -> https://download.pytorch.org/whl/torch_stable.html
+# dgl-cu113==0.9.0         -> https://data.dgl.ai/wheels/repo.html
+#   CPU-only 环境可安装 dgl==0.9.0
