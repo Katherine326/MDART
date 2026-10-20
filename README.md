@@ -399,18 +399,7 @@ python map_case_study_drugs.py --csv Result/CaseStudy/AD_top10_C-dataset_s1234.c
 
 ---
 
+目前该论文正在投稿
 
-## 引用
-
-如果本工作对你的研究有帮助，请引用：
-
-```bibtex
-@article{mdart,
-  title   = {MDART: Multi-view Network-Transformer Learning for Drug-Disease Association Prediction},
-  author  = {TODO},
-  journal = {TODO},
-  year    = {TODO}
-}
-```
 
 > 本仓库的可复现性参考了 MAPTrans 公开实现的工程结构，在此致谢。
